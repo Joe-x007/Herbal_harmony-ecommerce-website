@@ -1,0 +1,54 @@
+.about-us-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-us-container section {
+    margin-bottom: 40px;
+    background: #f8f8f8; /* Light background for each section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-us-container p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* For larger screens */
+@media (min-width: 768px) {
+    .about-us-container {
+        padding: 40px;
+    }
+
+    .about-us-container section {
+        padding: 30px;
+    }
+}
+
+.about-us-header {
+    background-color: lightslategrey; /* Light background color */
+    text-align: center; /* Center the title text */
+    padding: 50px 0; /* Top and bottom padding */
+    margin-bottom: 30px; /* Space after the title */
+    border-radius: 15px; /* Rounded corners */
+}
+
+.about-us-header h1 {
+    font-size: 2.5rem; /* Large font size for the title */
+    color: black; /* Dark color for the text */
+    margin: 0; /* Reset margin */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Stylish font-family */
+    font-weight: 300; /* Lighter font-weight */
+    letter-spacing: 2px; /* Spacing between letters */
+}
+
+/* Add more styles for other elements on the page as needed */
